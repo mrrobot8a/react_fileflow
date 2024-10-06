@@ -1,0 +1,38 @@
+table tbody tr:hover {
+  background-color: gray !important;
+  /* Cambia el color de fondo cuando el mouse pasa por encima */
+  cursor: pointer;
+  color: white;
+  /* Cambia el color de la letra cuando el mouse pasa por encima */
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  /* Cambia el cursor a una mano para indicar interactividad */
+}
+
+.table-custom tbody,
+.table-custom td,
+.table-custom tfoot,
+.table-custom th,
+.table-custom thead,
+.table-custom tr {
+  border-color: black;
+  border-style: solid;
+  border-width: 0;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  vertical-align: top;
+  background-color: white;
+}
+
+.table {
+  --bs-body-bg: transparent;
+  --bs-table-bg: var(--bs-body-bg);
+}
+
+:root {
+  --bs-table-bg: transparent;
+  /* Cambia este color por el que desees */
+}

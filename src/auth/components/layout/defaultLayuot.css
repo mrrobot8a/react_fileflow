@@ -1,0 +1,15 @@
+.layaout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    min-height: 100vh;
+    background: #f5f5f5;
+    border: 2px solid purple;
+    background-image: url('D:\Curso React js\prueba tecnica\front_react\front_react_PBT\src\assets\40410481_2030668943911836_6047437961358737408_n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cambiar a cover */
+    background-position: bottom; /* Centra la imagen */
+  
+    
+}
