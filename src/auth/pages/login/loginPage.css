@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .login-containerr {
-  width: 360px;
-  max-width: 500px;
+  width: 100px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
