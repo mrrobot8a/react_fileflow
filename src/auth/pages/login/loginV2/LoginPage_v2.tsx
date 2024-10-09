@@ -23,9 +23,9 @@ export const LoginScreenV2 = () => {
               To keep connected with us please login with your personal info
             </p>
             <button
-              className="ghost"
+              className="btnnn"
               id="signIn"
-              onClick={() => { }}
+              onClick={handleMove}
             >
               Sign In
             </button>
@@ -34,10 +34,9 @@ export const LoginScreenV2 = () => {
             <h1>Hello, Friend!</h1>
             <p>Enter your personal details and start journey with us</p>
             <button
-              className="ghost "
+              className="btnnn"
               id="signUp"
-              onClick={() => { }}
-            >
+              onClick={handleMove}>
               Sign Up
             </button>
           </div>
@@ -46,9 +45,6 @@ export const LoginScreenV2 = () => {
 
 
       </div>
-      <button onClick={handleMove}>
-        {moveRight ? 'Mostrar Login' : 'Mostrar Registro'}
-      </button>
     </div>
   );
 };
@@ -59,7 +55,7 @@ const LoginForm = () => {
       <h2>Iniciar Sesión</h2>
       <input type="email" placeholder="Correo Electrónico" />
       <input type="password" placeholder="Contraseña" />
-      <button type="submit">Iniciar Sesión</button>
+      <button className="btnn"><a href="#">Iniciar Sesión</a></button>
     </form>
   );
 };
@@ -71,7 +67,7 @@ const RegistrationForm = () => {
       <input type="text" placeholder="Nombre Completo" />
       <input type="email" placeholder="Correo Electrónico" />
       <input type="password" placeholder="Contraseña" />
-      <button type="submit">Registrarse</button>
+      <button className="btnn"><a href="#">Registrarse</a></button>
     </form>
   );
 };

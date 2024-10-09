@@ -3,12 +3,13 @@ import { LoginScreen } from '../auth/pages/login/loginPage';
 import { SingUpScreen } from '../auth/pages/singup/singup';
 import ProtectedRoute from './componets/ProtectedRoute';
 import { DashboardScreen } from '../dashboard/pages/dashboard';
+import { LoginScreenV2 } from '../auth/pages/login/loginV2/LoginPage_v2';
 
 // Definición de rutas
 const router = createBrowserRouter([    
     {
         path: '/',   
-        element: <LoginScreen />,
+        element: <LoginScreenV2 />,
     },
     {
         path: '/signup',  
