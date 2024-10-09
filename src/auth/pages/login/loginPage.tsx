@@ -1,6 +1,6 @@
 import SocialLogin from "../../../componentsGlobal/SocialLogin";
 import InputField from "../../../componentsGlobal/inputs/InputField";
-import './loginPage.css';
+
 import DefaultLayout from "../../components/layout/defaultLayout";
 import logo from '../../../assets/LogoAlcaldia.png';
 import { useState } from "react";
@@ -117,7 +117,7 @@ export const LoginScreen = () => {
           </div>
           <SocialLogin />
 
-          <p className="separator"><span>or</span></p>
+          <p className="separator"><span>or AND</span></p>
 
           <form onSubmit={handleSubmit} className="login-form">
             <InputField type="email" placeholder="Email address" icon="mail" onChange={(e) => setEmail(e.target.value)} value={email} />
