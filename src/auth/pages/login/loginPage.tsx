@@ -1,6 +1,6 @@
 import SocialLogin from "../../../componentsGlobal/SocialLogin";
 import InputField from "../../../componentsGlobal/inputs/InputField";
-
+import './loginPage.css';
 import DefaultLayout from "../../components/layout/defaultLayout";
 import logo from '../../../assets/LogoAlcaldia.png';
 import { useState } from "react";
@@ -108,7 +108,7 @@ export const LoginScreen = () => {
   return (
     <>
       <DefaultLayout >
-        <div className="login-containerr">
+        <div className="login-container">
           <div className="login-container__header">
             <h2 className="form-title">Log in with</h2>
             <div className="box-Image">

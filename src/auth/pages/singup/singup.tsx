@@ -137,7 +137,7 @@ export const SingUpScreen = () => {
     return (
         <>
             <DefaultLayout >
-                <div className="login-containerr">
+                <div className="login-container">
                     <div className="login-container__header">
                         <h2 className="form-title">Log in with</h2>
                         <div className="box-Image">

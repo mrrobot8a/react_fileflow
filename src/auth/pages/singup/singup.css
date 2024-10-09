@@ -1,7 +1,7 @@
 /* Importing Google Fonts - Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.login-containerr {
+.login-container {
   width: 360px;
   max-width: 500px;
   margin: 0 auto;
@@ -12,14 +12,14 @@
   /* Sombra para darle profundidad */
 }
 
-.login-containerr .form-title {
+.login-container .form-title {
   text-align: center;
   font-size: 1.37rem;
   font-weight: 600;
   margin-bottom: 1.87rem;
 }
 
-.login-containerr .social-login {
+.login-container .social-login {
   display: flex;
   gap: 1.31rem;
 }
@@ -49,14 +49,14 @@
   width: 23px;
 }
 
-.login-containerr .separator {
+.login-container .separator {
   position: relative;
   margin: 1.5rem 0;
   text-align: center;
   background: #fff;
 }
 
-.login-containerr .separator span {
+.login-container .separator span {
   z-index: 1;
   font-weight: 500;
   color: #6652BE;
@@ -66,7 +66,7 @@
   padding: 0 0.9rem;
 }
 
-.login-containerr .separator::after {
+.login-container .separator::after {
   content: "";
   position: absolute;
   left: 0;
@@ -161,20 +161,20 @@
   background: #18ab04;
 }
 
-.login-containerr .signup-prompt {
+.login-container .signup-prompt {
   text-align: center;
   font-size: 1.06rem;
   font-weight: 500;
   margin: 1.75rem 0 0.31rem;
 }
 
-.login-containerr a {
+.login-container a {
   color: #45b437;
   font-weight: 500;
   text-decoration: none;
 }
 
-.login-containerr a:hover {
+.login-container a:hover {
   text-decoration: underline;
 }
 
@@ -217,4 +217,22 @@ img {
   /* Mantiene la relación de aspecto */
   background-size: cover;
   border-radius: 50%;
+}
+
+.login-container {
+  scale:1;
+  width: 330px;
+  max-width: 500px;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  /* Sombra para darle profundidad */
+} 
+
+@media screen and (min-width: 1024px) {
+  .login-container {
+    width: 380px;
+    max-width: 500px;
+  }
 }

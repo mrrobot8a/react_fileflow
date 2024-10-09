@@ -9,7 +9,7 @@ import { LoginScreenV2 } from '../auth/pages/login/loginV2/LoginPage_v2';
 const router = createBrowserRouter([    
     {
         path: '/',   
-        element: <LoginScreenV2 />,
+        element: <LoginScreen />,
     },
     {
         path: '/signup',  

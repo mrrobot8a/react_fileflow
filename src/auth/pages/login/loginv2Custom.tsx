@@ -32,7 +32,7 @@ const formFields = [
   }
 ]
 
-export const LoginScreenV2 = () => {
+export const LoginScreenV2Custom = () => {
 
   const handleLogin = (formData: { [key: string]: string }) => {
     console.log(formData); 
