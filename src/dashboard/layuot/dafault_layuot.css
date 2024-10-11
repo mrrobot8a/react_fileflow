@@ -1,0 +1,17 @@
+.dafault_layuot_container{
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    grid-template-areas: "sidebar main";
+    height: 100vh;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.main{
+    grid-area: main;
+    border: 2px solid black;
+    height: 100vh;
+}

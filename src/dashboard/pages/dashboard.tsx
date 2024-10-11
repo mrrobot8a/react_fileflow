@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useAuth } from "../../auth/provider/AuthProvider";
 import InputField from "../../componentsGlobal/inputs/InputField";
 import './dashboard.css';
+import DafaultLayuott from "../layuot/dafault_layuot";
 
 
 export const DashboardScreen = () => {
@@ -127,7 +128,10 @@ export const DashboardScreen = () => {
 
     return (
         <>
-            <p>Hello dashboard de {Auth.getUser()!.firstName || ""}</p>
+
+        <DafaultLayuott>
+
+            <p>Hello dashboard de {Auth.getUser()?.firstName || ""}</p>
 
             <form className="form_dashboard" action="" onSubmit={handleSubmit}>
 
@@ -201,6 +205,7 @@ export const DashboardScreen = () => {
                     ))}
                 </tbody>
             </table>
+            </DafaultLayuott>
         </>
     )
 };

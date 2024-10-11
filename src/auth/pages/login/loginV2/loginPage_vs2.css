@@ -1,10 +1,29 @@
-
-
-
 /* Centrar el contenedor */
 * {
     box-sizing: border-box;
 }
+
+.main {
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    top: -10px; 
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url("https://joseppons.com/formacion/wp-content/uploads/2022/05/estudiar-barberi%CC%81a@0.5x-1610x2048.jpg");
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px); 
+    z-index: -1;
+}
+
 
 .container {
     display: flex;

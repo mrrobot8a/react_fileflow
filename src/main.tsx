@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 
 import { RouterProvider } from 'react-router-dom';
 import router from './router/routes.tsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import { AuthProvider } from './auth/provider/AuthProvider.tsx';
 import 'normalize.css';
 

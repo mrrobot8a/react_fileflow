@@ -12,6 +12,8 @@ export const LoginScreenV2 = () => {
     "container__screen " + (moveRight ? "right-panel-active" : "");
 
   return (
+    <div className="main">
+        {/* Contenido del navbar y del contenido principal */}
     <div className="container">
       <div className={containerClass}>
         <LoginForm />
@@ -45,6 +47,7 @@ export const LoginScreenV2 = () => {
 
 
       </div>
+    </div>
     </div>
   );
 };

@@ -33,7 +33,7 @@ const AuthContext = createContext<AuthContextData>({
 
 // Componente proveedor del contexto
 export function AuthProvider({ children }: AuthProviderProps) {
-    const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
+    const [isAuthenticated, setIsAuthenticated] = useState<boolean>(true);
     const [loading, setLoading] = useState<boolean>(true); // <- Estado de carga
 
 
