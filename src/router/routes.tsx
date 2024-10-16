@@ -5,17 +5,19 @@ import ProtectedRoute from './componets/ProtectedRoute';
 import { DashboardScreen } from '../dashboard/pages/dashboard';
 import { LoginScreenV2 } from '../auth/pages/login/loginV2/LoginPage_v2';
 import BarberShop from '../auth/pages/landing/landing';
-import Navbar from '../auth/pages/navbar/navbar';
-import Sidebarr from '../auth/pages/navbar/navbar2';
-import Nuevo from '../auth/pages/landing/nuevo';
+import AddEmployes from '../auth/pages/admin/addemployes';
+import Schedule from '../auth/pages/admin/schedule';
 
 // Definición de rutas
 const router = createBrowserRouter([  
-
     {
-        path: '/nuevo',   
-        element: <Nuevo />,
-    },  
+        path: '/cronograma',   
+        element: <Schedule />,
+    },
+    {
+        path: '/add',   
+        element: <AddEmployes />,
+    },
     {
         path: '/index',   
         element: <BarberShop />,

@@ -1,0 +1,22 @@
+.schedule-container {
+  width: 90%;
+  margin: auto;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.activity {
+  color: white; /* Color blanco para asegurar la visibilidad en fondos oscuros */
+  font-weight: bold;
+}
